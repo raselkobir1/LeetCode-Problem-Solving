@@ -18,10 +18,10 @@ namespace LeetCodeProblem.Solutions
 
                 foreach (var item in reverseData)
                 {
-                    result += item; // Use += to concatenate characters to the result.
+                    result += item; 
                 }
 
-                int RightToLeft = int.Parse(result); // Use int.Parse to convert the string to an integer.
+                int RightToLeft = int.Parse(result); 
 
                 if (LeftToRight == RightToLeft)
                 {
