@@ -12,10 +12,18 @@ using LeetCodeProblem.Solutions;
 //var result = palindromeCheck.IsPalindrome(input);
 //Console.WriteLine(result);
 
-var Input = "k";
-ReverseWordsProblem reverseWordsProblem = new ReverseWordsProblem();
-var result = reverseWordsProblem.ReverseWords(Input); 
-Console.WriteLine(result);
+//var Input = "Let's take LeetCode contest";
+//ReverseWordsProblem reverseWordsProblem = new ReverseWordsProblem();
+//var result = reverseWordsProblem.ReverseWords(Input); 
+//Console.WriteLine(result);
 
+//int input = -1236;
+//ReverseInteger_mid reverse = new();
+//var result = reverse.Reverse(input);
+//Console.WriteLine(result);
 
+int[] nums = { 1,3, 3, 4, 2 };
+_287_FindDuplicateFromIntArray findDuplicate = new _287_FindDuplicateFromIntArray();
+var result = findDuplicate.FindDuplicate(nums);
+Console.WriteLine(result); 
 Console.WriteLine();
