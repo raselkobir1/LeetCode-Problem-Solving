@@ -39,8 +39,8 @@ using LeetCodeProblem.Solutions;
 //var result = divideTwoNum.Divide(divident, divisor);
 //Console.WriteLine(result); 
 
-int[] arr = { 1, 3, 5, 6 ,10,80,90};
-int target = 10;
+int[] arr = { 5, 7 ,9,12,15};
+int target = 6;
 FindValueWithBinarySearch search = new FindValueWithBinarySearch();
 var result = search.BinarySearch(arr,target);
 Console.WriteLine(result);  
