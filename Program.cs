@@ -22,8 +22,21 @@ using LeetCodeProblem.Solutions;
 //var result = reverse.Reverse(input);
 //Console.WriteLine(result);
 
-int[] nums = { 1,3, 3, 4, 2 };
-_287_FindDuplicateFromIntArray findDuplicate = new _287_FindDuplicateFromIntArray();
-var result = findDuplicate.FindDuplicate(nums);
+//int[] nums = { 1,3, 3, 4, 2 };
+//_287_FindDuplicateFromIntArray findDuplicate = new _287_FindDuplicateFromIntArray();
+//var result = findDuplicate.FindDuplicate(nums);
+//Console.WriteLine(result); 
+
+//string haystack = "sadbutsad", needle = "dbu";
+//_28_FindTheIndexOfFirstOccurenceOf2Strings index = new();
+//var result = index.StrStr(haystack, needle);
+//Console.WriteLine(result); 
+
+int divident = 0;
+int divisor = 1;
+
+_29_DivideTwoInteger divideTwoNum = new _29_DivideTwoInteger(); 
+var result = divideTwoNum.Divide(divident, divisor);
 Console.WriteLine(result); 
+
 Console.WriteLine();
