@@ -10,22 +10,22 @@ namespace LeetCodeProblem.Solutions
     {
         public int BinarySearch(int[] nums, int target) 
         {
-            int start = nums[0];
-            int end = nums[nums.Length - 1];
+            int left = 0;
+            int right = nums.Length - 1; 
 
 
-            while (start <= end)
+            while (left <= right)
             {
-                int mid = (start + end) / 2;
-
-                if (target == mid)
+                int mid = left + (right - left) / 2;
+                int midVal = nums[mid];     
+                if (target == midVal)
                     return mid;
 
-                if (target > mid)
-                    start = mid + 1;
-                else if (target < mid)
+                if (target > midVal)
+                    left = mid + 1;
+                else if (target < midVal)
                 {
-                    end = mid - 1;
+                    right = mid - 1;
                 }
             }
 
