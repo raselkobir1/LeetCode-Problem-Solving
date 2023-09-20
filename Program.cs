@@ -32,11 +32,18 @@ using LeetCodeProblem.Solutions;
 //var result = index.StrStr(haystack, needle);
 //Console.WriteLine(result); 
 
-int divident = 0;
-int divisor = 1;
+//int divident = 0;
+//int divisor = 1;
 
-_29_DivideTwoInteger divideTwoNum = new _29_DivideTwoInteger(); 
-var result = divideTwoNum.Divide(divident, divisor);
-Console.WriteLine(result); 
+//_29_DivideTwoInteger divideTwoNum = new _29_DivideTwoInteger(); 
+//var result = divideTwoNum.Divide(divident, divisor);
+//Console.WriteLine(result); 
+
+int[] arr = { 1, 3, 5, 6 ,10,80,90};
+int target = 10;
+FindValueWithBinarySearch search = new FindValueWithBinarySearch();
+var result = search.BinarySearch(arr,target);
+Console.WriteLine(result);  
+
 
 Console.WriteLine();
