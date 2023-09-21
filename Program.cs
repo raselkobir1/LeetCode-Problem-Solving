@@ -39,11 +39,16 @@ using LeetCodeProblem.Solutions;
 //var result = divideTwoNum.Divide(divident, divisor);
 //Console.WriteLine(result); 
 
-int[] arr = { 5, 7 ,9,12,15};
-int target = 6;
-FindValueWithBinarySearch search = new FindValueWithBinarySearch();
-var result = search.BinarySearch(arr,target);
-Console.WriteLine(result);  
+//int[] arr = { 5, 7 ,9,12,15};
+//int target = 6;
+//FindValueWithBinarySearch search = new FindValueWithBinarySearch();
+//var result = search.BinarySearch(arr,target);
+//Console.WriteLine(result);
 
+
+string[] strs = { "ab", "a" };
+_14_FindLongestCommonPrefix lcp = new();
+var result = lcp.LongestCommonPrefix(strs);
+Console.WriteLine(result);       
 
 Console.WriteLine();
