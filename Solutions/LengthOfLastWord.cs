@@ -10,9 +10,9 @@ namespace LeetCodeProblem.Solutions
     {
         public int LengthOfLastWords(string s) 
         {
-            var splitStr = s.Split(' ');  
+            var splitStr = s.Trim().Split(' ');
             var lastWord = splitStr[splitStr.Length - 1];
-            lastWord.Trim();    
+            lastWord.Trim();
             return lastWord.Length;
         }
     }
