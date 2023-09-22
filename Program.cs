@@ -46,9 +46,14 @@ using LeetCodeProblem.Solutions;
 //Console.WriteLine(result);
 
 
-string[] strs = { "ab", "a" };
-_14_FindLongestCommonPrefix lcp = new();
-var result = lcp.LongestCommonPrefix(strs);
-Console.WriteLine(result);       
+//string[] strs = { "abc", "abc","mbxy" };
+//_14_FindLongestCommonPrefix lcp = new();
+//var result = lcp.LongestCommonPrefix(strs);
+//Console.WriteLine(result);
+//
+
+string Input = "Hello World";
+LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
+lengthOfLastWord.LengthOfLastWords(Input);
 
 Console.WriteLine();
