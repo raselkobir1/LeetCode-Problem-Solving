@@ -8,12 +8,10 @@ namespace LeetCodeProblem.Solutions
 {
     public class LengthOfLastWord
     {
-        public int LengthOfLastWords(string s) 
+        public int LengthOfLastWords(string s)
         {
             var splitStr = s.Trim().Split(' ');
-            var lastWord = splitStr[splitStr.Length - 1];
-            lastWord.Trim();
-            return lastWord.Length;
+            return splitStr[splitStr.Length - 1].Trim().Length;
         }
     }
 }

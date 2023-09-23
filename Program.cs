@@ -52,8 +52,16 @@ using LeetCodeProblem.Solutions;
 //Console.WriteLine(result);
 //
 
-string Input = "Hello World";
-LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
-lengthOfLastWord.LengthOfLastWords(Input);
-
+//string Input = "   fly me   to   the moon  ";
+//LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
+//int len = lengthOfLastWord.LengthOfLastWords(Input);
+//Console.WriteLine(len);
+//
+int[] input = { 9, 9, 9 };
+_66_PlusOneProblem plusOneProblem = new();
+int[] res = plusOneProblem.PlusOne(input);
+foreach (int i in res)
+{
+    Console.WriteLine(i);   
+}
 Console.WriteLine();
