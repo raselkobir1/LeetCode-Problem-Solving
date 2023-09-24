@@ -57,11 +57,17 @@ using LeetCodeProblem.Solutions;
 //int len = lengthOfLastWord.LengthOfLastWords(Input);
 //Console.WriteLine(len);
 //
-int[] input = { 9, 9, 9 };
-_66_PlusOneProblem plusOneProblem = new();
-int[] res = plusOneProblem.PlusOne(input);
-foreach (int i in res)
-{
-    Console.WriteLine(i);   
-}
+//int[] input = { 9, 9, 9 };
+//_66_PlusOneProblem plusOneProblem = new();
+//int[] res = plusOneProblem.PlusOne(input);
+//foreach (int i in res)
+//{
+//    Console.WriteLine(i);   
+//}
+
+int[] nums = { 2, 2, 1, 1, 1, 2, 2 };
+//int[] nums = { 3, 2, 3 };
+_169_MajorityElementOfArray majority = new();
+int res = majority.MajorityElement(nums);
+Console.WriteLine(res); 
 Console.WriteLine();
