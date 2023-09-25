@@ -66,8 +66,9 @@ using LeetCodeProblem.Solutions;
 //}
 
 //int[] nums = { 2, 2, 1, 1, 3, 3, 3, 1, 2, 2 };
-int[] nums = { 3, 2, 3 };
-_169_MajorityElementOfArray majority = new();
-int res = majority.MajorityElement(nums);
-Console.WriteLine(res); 
+//int[] nums = { 3, 2, 3 };
+//_169_MajorityElementOfArray majority = new();
+//int res = majority.MajorityElement(nums);
+//Console.WriteLine(res); 
+
 Console.WriteLine();
