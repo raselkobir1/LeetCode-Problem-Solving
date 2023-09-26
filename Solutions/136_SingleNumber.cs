@@ -3,16 +3,32 @@ namespace LeetCodeProblem.Solutions
 {
     public class _136_SingleNumber
     {
-        public int SingleNumber(int[] nums)
+        public void SingleNumber()
         {
             //int[] input = { 2, 2, 1 }
             int[] input = { 4, 1, 2, 1, 2 };
-            return 0;
+            int res = SingpleNumber(input);
+            Console.WriteLine(res);
         }
 
-        private int singple(int[] nums)
+        private int SingpleNumber(int[] nums)  
         {
-            return 0;
+            Dictionary<int, int> count = new Dictionary<int, int>();
+            foreach (int num in nums) 
+            {
+                if (!count.ContainsKey(num))
+                {
+                    count[num] = 1;
+                }
+                else
+                {
+                    count[num]++;
+                }
+            }   
+            // Find the minimum value and its corresponding key
+            KeyValuePair<int, int> minEntry = count.Aggregate((l, r) => l.Value < r.Value ? l : r);
+            int minKey = minEntry.Key;
+            return minKey;
         }
     }
 }

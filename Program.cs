@@ -71,4 +71,7 @@ using LeetCodeProblem.Solutions;
 //int res = majority.MajorityElement(nums);
 //Console.WriteLine(res); 
 
+_136_SingleNumber _SingleNumber = new();
+_SingleNumber.SingleNumber();
+
 Console.WriteLine();
