@@ -1,17 +1,17 @@
 ﻿
 namespace LeetCodeProblem.Solutions
 {
-    public class _136_SingleNumber
+    public static class _136_SingleNumber
     {
-        public void SingleNumber()
+        public static void SingleNumber()
         {
             //int[] input = { 2, 2, 1 }
-            int[] input = { 4, 1, 2, 1, 2 };
+            int[] input = { 4, 1, 2, 1, 2,3 };
             int res = SingpleNumber(input);
             Console.WriteLine(res);
         }
 
-        private int SingpleNumber(int[] nums)  
+        private static int SingpleNumber(int[] nums)  
         {
             Dictionary<int, int> count = new Dictionary<int, int>();
             foreach (int num in nums) 
