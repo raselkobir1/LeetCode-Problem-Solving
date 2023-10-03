@@ -75,7 +75,8 @@ using LeetCodeProblem.Solutions;
 
 //_171_TitleToNumber.TitleToNumberForExcel();
 
-_26_RemoveDuplicatesFromSortedArray.RemoveDuplicate();
+//_26_RemoveDuplicatesFromSortedArray.RemoveDuplicate();
+_27_RemoveElement.RemoveElements();
 
 
 Console.WriteLine();

@@ -17,7 +17,19 @@ namespace LeetCodeProblem.Solutions
         }
         private static int RemoveElement(int[] nums, int val)
         {
-            return 0;
+            int left = 0; // Pointer for elements to keep
+
+            for (int right = 0; right < nums.Length; right++)
+            {
+                if (nums[right] != val)
+                {
+                    // If the current element is not equal to val, keep it
+                    nums[left] = nums[right];
+                    left++;
+                }
+            }
+
+            return left;
         }
 
     }
