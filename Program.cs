@@ -73,6 +73,9 @@ using LeetCodeProblem.Solutions;
 
 //_136_SingleNumber.SingleNumber();
 
-_171_TitleToNumber.TitleToNumberForExcel();
+//_171_TitleToNumber.TitleToNumberForExcel();
+
+_26_RemoveDuplicatesFromSortedArray.RemoveDuplicate();
+
 
 Console.WriteLine();

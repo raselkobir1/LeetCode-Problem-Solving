@@ -6,16 +6,34 @@ using System.Threading.Tasks;
 
 namespace LeetCodeProblem.Solutions
 {
-    public class _26_RemoveDuplicatesFromSortedArray
+    public static class _26_RemoveDuplicatesFromSortedArray
     {
-        public static int RemoveDuplicate() 
+        public static void RemoveDuplicate() 
         {
-            int[] nums = { 1, 1, 2 };
-            return RemoveDuplicates(nums);
+            //int[] nums = { 1, 1, 2 };
+            int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+            var res = RemoveDuplicates(nums);
+            Console.WriteLine(res);
+            Console.ReadLine();
         }
         private static int RemoveDuplicates(int[] nums)
         {
-            return 0;
+            if (nums.Length == 0)
+            {
+                return 0;
+            }
+
+            int uniqueCount = 1; // Initialize with 1 since the first element is always unique
+            for (int i = 1; i < nums.Length; i++)
+            {
+                if (nums[i] != nums[i - 1])
+                {
+                    nums[uniqueCount] = nums[i]; // Move the unique element to the next position
+                    uniqueCount++;
+                }
+            }
+
+            return uniqueCount;
         }
     }
 }
