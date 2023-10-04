@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCodeProblem.Solutions;
+using LeetCodeProblem.Solutions.Mediam;
 
 //Two sum
 //int[] input = { 2, 7, 11, 15 };
@@ -76,7 +77,8 @@ using LeetCodeProblem.Solutions;
 //_171_TitleToNumber.TitleToNumberForExcel();
 
 //_26_RemoveDuplicatesFromSortedArray.RemoveDuplicate();
-_27_RemoveElement.RemoveElements();
+//_27_RemoveElement.RemoveElements();
+_34_SearchRange.SearchRanges();
 
 
 Console.WriteLine();
