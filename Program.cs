@@ -78,7 +78,8 @@ using LeetCodeProblem.Solutions.Mediam;
 
 //_26_RemoveDuplicatesFromSortedArray.RemoveDuplicate();
 //_27_RemoveElement.RemoveElements();
-_34_SearchRange.SearchRanges();
+//_34_SearchRange.SearchRanges
+_202_HappyNumber.IsHappyNumber();
 
 
 Console.WriteLine();
