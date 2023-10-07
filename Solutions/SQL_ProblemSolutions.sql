@@ -25,3 +25,8 @@ WHERE e1.salary > (
 );
 
 
+/* 183: customers-who-never-order */
+SELECT Name as Customers 
+from Customers 
+where Id not in(select customerId from Orders) 
+

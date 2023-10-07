@@ -13,9 +13,10 @@ namespace LeetCodeProblem.Solutions
         {
             //int happyNumber = 19;
             //int happyNumber = 2;
-            int happyNumber = 7;
-            bool res = IsHappy(happyNumber);
-            Console.WriteLine(res); 
+            int happyNumber = 75;
+            //bool res = IsHappy(happyNumber);
+            SumOfDigits(happyNumber);
+            //Console.WriteLine(res); 
         }
         private static bool IsHappy(int num) 
         {
@@ -39,6 +40,16 @@ namespace LeetCodeProblem.Solutions
                 return false;
 
             return IsHappy(temp);
+        }
+
+        private static void SumOfDigits(int n)
+        {
+            int sum = 0;
+            int xx = (n % 10);
+            int yy = (n % 10);
+            sum += xx * yy;
+            n /= 10;
+
         }
     }
 }
