@@ -11,8 +11,25 @@ namespace LeetCodeProblem.Solutions
         public static void ContainsDuplicates()
         {
             int[] input = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
-            var res =  ContainsDuplicatee(input);
+            //var res =  ContainsDuplicatee(input);
+            var res = ContainsDuplicatee1(input);
             Console.WriteLine(res);
+        }
+        public static bool ContainsDuplicatee1(int[] nums) 
+        {
+            Dictionary<int, int> dictionary = new Dictionary<int, int>(); 
+            foreach (int i in nums) 
+            {
+                if (dictionary.ContainsKey(i))
+                {
+                    return true;
+                }
+                else
+                {
+                    dictionary.Add(i, i);
+                }
+            }
+            return false;
         }
         public static bool ContainsDuplicatee(int[] nums)
         {
