@@ -80,7 +80,8 @@ using LeetCodeProblem.Solutions.Mediam;
 //_27_RemoveElement.RemoveElements();
 //_34_SearchRange.SearchRanges
 //_202_HappyNumber.IsHappyNumber();
-_13_RomanToInt.RomanToInts();
+//_13_RomanToInt.RomanToInts();
+_258_AddDigits.AddDigitsTest();
 
 
 Console.WriteLine();
