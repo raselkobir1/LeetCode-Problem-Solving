@@ -81,7 +81,8 @@ using LeetCodeProblem.Solutions.Mediam;
 //_34_SearchRange.SearchRanges
 //_202_HappyNumber.IsHappyNumber();
 //_13_RomanToInt.RomanToInts();
-_258_AddDigits.AddDigitsTest();
+//_258_AddDigits.AddDigitsTest();
+_414_ThirdMax.ThirdMaxs();
 
 
 Console.WriteLine();
