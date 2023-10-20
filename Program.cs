@@ -83,7 +83,8 @@ using LeetCodeProblem.Solutions.Mediam;
 //_13_RomanToInt.RomanToInts();
 //_258_AddDigits.AddDigitsTest();
 //_414_ThirdMax.ThirdMaxs();
-_434_NumberOfSegments.CountSegment();
+//_434_NumberOfSegments.CountSegment();
+_824_GoatLatin.GoatLatin();
 
 
 Console.WriteLine();
