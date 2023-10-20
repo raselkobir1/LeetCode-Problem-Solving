@@ -84,7 +84,8 @@ using LeetCodeProblem.Solutions.Mediam;
 //_258_AddDigits.AddDigitsTest();
 //_414_ThirdMax.ThirdMaxs();
 //_434_NumberOfSegments.CountSegment();
-_824_GoatLatin.GoatLatin();
+//_824_GoatLatin.GoatLatin();
+_859_BuddyStrings.BuddyStrings();
 
 
 Console.WriteLine();
