@@ -86,7 +86,8 @@ using LeetCodeProblem.Solutions.Mediam;
 //_434_NumberOfSegments.CountSegment();
 //_824_GoatLatin.GoatLatin();
 //_859_BuddyStrings.BuddyStrings();
-_884_UncommonWordFromTwoSentance.UncommonFromSentences();
+//_884_UncommonWordFromTwoSentance.UncommonFromSentences();
+_905_SortArrayByParity.SortArrayByParity();
 
 
 Console.WriteLine();
