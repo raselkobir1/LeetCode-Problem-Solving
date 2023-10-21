@@ -17,25 +17,34 @@ namespace LeetCodeProblem.Solutions
         }
         private static bool BuddyStrings(string s, string goal)
         {
-            char[] chString = s.ToCharArray();     
-            for (var i = 0; i < s.Length-1; i++)  
+            char[] chString = s.ToCharArray();
+            foreach (char ch in chString)
             {
-                for (var j = 1; j< s.Length; j++) 
+                if (!goal.Contains(ch))
                 {
-                    if(i != j)
-                    {
-                        var x = chString[i];
-                        chString[i] = chString[j];
-                        chString[j] = x;
-                        if (chString.SequenceEqual(goal.ToCharArray()))
-                        {
-                            return true;
-                        }
-                    }
+                    return false;
                 }
-                chString = s.ToCharArray(); 
             }
-            return false;   
+            return true;        
+            //char[] chString = s.ToCharArray();
+            //for (var i = 0; i < s.Length-1; i++)  
+            //{
+            //    for (var j = 1; j< s.Length; j++) 
+            //    {
+            //        if(i != j)
+            //        {
+            //            var x = chString[i];
+            //            chString[i] = chString[j];
+            //            chString[j] = x;
+            //            if (chString.SequenceEqual(goal.ToCharArray()))
+            //            {
+            //                return true;
+            //            }
+            //        }
+            //    }
+            //    chString = s.ToCharArray(); 
+            //}
+            //return false;   
         }
     }
 }
