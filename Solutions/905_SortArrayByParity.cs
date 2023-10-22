@@ -24,55 +24,26 @@ namespace LeetCodeProblem.Solutions
         }
         private static int[] SortArrayByParity(int[] nums)
         {
-            if(nums.Length == 1)
+            List<int> evenNumbers = new List<int>();
+            List<int> oddNumbers = new List<int>();
+
+            foreach (int num in nums)
             {
-                return nums;  
-            }
-            if (nums.Length == 2)
-            {
-                if (nums[0] % 2 == 0)
+                if (num % 2 == 0)
                 {
-                    return nums;
+                    evenNumbers.Add(num);
                 }
                 else
                 {
-                    int temp = 0;
-                    temp = nums[0];
-                    nums[0] = nums[1];
-                    nums[1] = temp; 
-                }
-                return nums;
-            }
-            string evenArr = string.Empty;
-            string oddArr = string.Empty;
-
-            for (int i = 0; i< nums.Length; i++)
-            {
-                if (nums[i] % 2 == 0)
-                {
-                    evenArr += nums[i] + " ";
-                }
-                else
-                {
-                    oddArr += nums[i] + " ";
+                    oddNumbers.Add(num);
                 }
             }
 
-            var x = evenArr.TrimEnd().Split(" ");
-            var y = oddArr.TrimEnd().Split(" ");
+            evenNumbers.Sort(); 
 
-            string[] res = x.Concat(y).ToArray();
+            evenNumbers.AddRange(oddNumbers);
 
-
-            int[] intArray = new int[x.Length + y.Length];
-            for (int i = 0; i < res.Length; i++)
-            {
-                if (int.TryParse(res[i], out int result))
-                {
-                    intArray[i] = result;
-                }
-            }
-            return intArray;
+            return evenNumbers.ToArray();
         }
     }
 }
