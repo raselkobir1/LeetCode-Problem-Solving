@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using LeetCodeProblem;
 using LeetCodeProblem.Solutions;
 using LeetCodeProblem.Solutions.Mediam;
 
@@ -87,7 +88,8 @@ using LeetCodeProblem.Solutions.Mediam;
 //_824_GoatLatin.GoatLatin();
 //_859_BuddyStrings.BuddyStrings();
 //_884_UncommonWordFromTwoSentance.UncommonFromSentences();
-_905_SortArrayByParity.SortArrayByParity();
+//_905_SortArrayByParity.SortArrayByParity();
+_389_FindTheDifference.FindTheDifference();
 
 
 Console.WriteLine();
