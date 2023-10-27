@@ -89,7 +89,8 @@ using LeetCodeProblem.Solutions.Mediam;
 //_859_BuddyStrings.BuddyStrings();
 //_884_UncommonWordFromTwoSentance.UncommonFromSentences();
 //_905_SortArrayByParity.SortArrayByParity();
-_389_FindTheDifference.FindTheDifference();
+//_389_FindTheDifference.FindTheDifference();
+_389_FirstUniqChar.FirstUniqChar();
 
 
 Console.WriteLine();
