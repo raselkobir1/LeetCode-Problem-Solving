@@ -91,7 +91,7 @@ using LeetCodeProblem.Solutions.Mediam;
 //_905_SortArrayByParity.SortArrayByParity();
 //_389_FindTheDifference.FindTheDifference();
 //_389_FirstUniqChar.FirstUniqChar();
-IsMonotonic.IsMonotonicArray();
-
+//IsMonotonic.IsMonotonicArray();
+_929_NumUniqueEmails.NumUniqueEmails();
 
 Console.WriteLine();
