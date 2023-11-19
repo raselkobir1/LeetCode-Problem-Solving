@@ -93,6 +93,7 @@ using LeetCodeProblem.Solutions.Mediam;
 //_389_FirstUniqChar.FirstUniqChar();
 //IsMonotonic.IsMonotonicArray();
 //_929_NumUniqueEmails.NumUniqueEmails();
-_917_ReverseOnlyLetters.ReverseOnlyLettersTest();
+//_917_ReverseOnlyLetters.ReverseOnlyLettersTest();
+DayOfTheWeek.DayOfTheWeekTest();
 
 Console.WriteLine();
