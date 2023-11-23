@@ -95,6 +95,7 @@ using LeetCodeProblem.Solutions.Mediam;
 //_929_NumUniqueEmails.NumUniqueEmails();
 //_917_ReverseOnlyLetters.ReverseOnlyLettersTest();
 //DayOfTheWeek.DayOfTheWeekTest();
-_1295_FindNumbers.FindNumbersTest();
+//_1295_FindNumbers.FindNumbersTest();
+_1281_SubtractProductAndSum.SubtractProductAndSum();
 
 Console.WriteLine();

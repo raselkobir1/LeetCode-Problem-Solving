@@ -10,7 +10,7 @@ namespace LeetCodeProblem
     {
         public static void SubtractProductAndSum()
         {
-            var input = 256;
+            var input = 222;
             var result = SubtractProductAndSum(input);
             Console.WriteLine(result);  
         }
@@ -18,13 +18,11 @@ namespace LeetCodeProblem
         {
             int product = 1;
             int sum = 0;   
-            var nums = n.ToString().ToCharArray();
-            foreach (char c in nums)
-            {
-                int num = c;
-                product += c * num;
-                sum += c + num;
-                num = 0;
+            while (n > 0) {
+                int digit = n % 10;
+                product *= digit;
+                sum += digit;
+                n /= 10;
             }
             return product - sum;    
         }
