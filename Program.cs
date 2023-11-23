@@ -94,6 +94,7 @@ using LeetCodeProblem.Solutions.Mediam;
 //IsMonotonic.IsMonotonicArray();
 //_929_NumUniqueEmails.NumUniqueEmails();
 //_917_ReverseOnlyLetters.ReverseOnlyLettersTest();
-DayOfTheWeek.DayOfTheWeekTest();
+//DayOfTheWeek.DayOfTheWeekTest();
+_1295_FindNumbers.FindNumbersTest();
 
 Console.WriteLine();
