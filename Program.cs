@@ -96,6 +96,7 @@ using LeetCodeProblem.Solutions.Mediam;
 //_917_ReverseOnlyLetters.ReverseOnlyLettersTest();
 //DayOfTheWeek.DayOfTheWeekTest();
 //_1295_FindNumbers.FindNumbersTest();
-_1281_SubtractProductAndSum.SubtractProductAndSum();
+//_1281_SubtractProductAndSum.SubtractProductAndSum();
+_1221_BalancedStringSplit.BalancedStringSplitTest();
 
 Console.WriteLine();
