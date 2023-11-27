@@ -97,6 +97,7 @@ using LeetCodeProblem.Solutions.Mediam;
 //DayOfTheWeek.DayOfTheWeekTest();
 //_1295_FindNumbers.FindNumbersTest();
 //_1281_SubtractProductAndSum.SubtractProductAndSum();
-_1221_BalancedStringSplit.BalancedStringSplitTest();
+//_1221_BalancedStringSplit.BalancedStringSplitTest();
+_412_FizzBuzz.FizzBuzzTest();
 
 Console.WriteLine();
