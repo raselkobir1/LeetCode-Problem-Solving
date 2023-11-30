@@ -98,6 +98,8 @@ using LeetCodeProblem.Solutions.Mediam;
 //_1295_FindNumbers.FindNumbersTest();
 //_1281_SubtractProductAndSum.SubtractProductAndSum();
 //_1221_BalancedStringSplit.BalancedStringSplitTest();
-_412_FizzBuzz.FizzBuzzTest();
+//_412_FizzBuzz.FizzBuzzTest();
+//_344_ReverseString.ReverseStringTest();
+_383_CanConstruct.CanConstructTest();
 
 Console.WriteLine();
