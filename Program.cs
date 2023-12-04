@@ -100,6 +100,7 @@ using LeetCodeProblem.Solutions.Mediam;
 //_1221_BalancedStringSplit.BalancedStringSplitTest();
 //_412_FizzBuzz.FizzBuzzTest();
 //_344_ReverseString.ReverseStringTest();
-_383_CanConstruct.CanConstructTest();
+//_383_CanConstruct.CanConstructTest();
+//_349_Intersection.Intersection();
 
 Console.WriteLine();
