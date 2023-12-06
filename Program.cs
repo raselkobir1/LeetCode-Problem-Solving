@@ -102,5 +102,6 @@ using LeetCodeProblem.Solutions.Mediam;
 //_344_ReverseString.ReverseStringTest();
 //_383_CanConstruct.CanConstructTest();
 //_349_Intersection.Intersection();
+_1323_Maximum69Number.Maximum69NumberTest();
 
 Console.WriteLine();
